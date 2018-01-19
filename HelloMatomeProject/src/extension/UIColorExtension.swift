@@ -9,8 +9,8 @@
 import UIKit
 
 extension UIColor {
-    class var satoMasaki: UIColor {
-        return UIColor(red: <#T##CGFloat#>, green: <#T##CGFloat#>, blue: <#T##CGFloat#>, alpha: <#T##CGFloat#>)
-    }
+//    class var satoMasaki: UIColor {
+//        return UIColor(red: <#T##CGFloat#>, green: <#T##CGFloat#>, blue: <#T##CGFloat#>, alpha: <#T##CGFloat#>)
+//    }
     
 }
