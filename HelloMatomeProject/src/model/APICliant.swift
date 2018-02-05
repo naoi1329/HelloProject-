@@ -8,7 +8,7 @@
 
 
 import Alamofire
-import SwiftyJSON
+//import SwiftyJSON
 
 enum Result<T> {
     case Success(T)

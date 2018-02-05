@@ -43,19 +43,23 @@
 		0512BD32200D81F80054FBBE /* AttributedLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0512BD2D200D81F80054FBBE /* AttributedLabel.framework */; };
 		0512BD33200D81F80054FBBE /* Cartography.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0512BD2E200D81F80054FBBE /* Cartography.framework */; };
 		0512BD3A200D99AA0054FBBE /* MatomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0512BD38200D99AA0054FBBE /* MatomeTableViewCell.swift */; };
-		0512BD3B200D99AA0054FBBE /* MatomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0512BD39200D99AA0054FBBE /* MatomeTableViewCell.xib */; };
 		0512BD3D200DA2FC0054FBBE /* ResourceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0512BD3C200DA2FC0054FBBE /* ResourceManager.swift */; };
 		0512BD3F200DA7A00054FBBE /* ReuseIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0512BD3E200DA7A00054FBBE /* ReuseIdentifiable.swift */; };
 		0512BD412010791F0054FBBE /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0512BD402010791F0054FBBE /* BaseTableViewCell.swift */; };
-		0512BD4420107B760054FBBE /* Matome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0512BD4320107B760054FBBE /* Matome.swift */; };
+		0512BD4420107B760054FBBE /* MatomeNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0512BD4320107B760054FBBE /* MatomeNews.swift */; };
 		0512BD46201081CC0054FBBE /* MatomeAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0512BD45201081CC0054FBBE /* MatomeAPIManager.swift */; };
 		0512BD482010826D0054FBBE /* APICliant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0512BD472010826D0054FBBE /* APICliant.swift */; };
 		0512BD4A20108B770054FBBE /* GetMatomeNewsBlog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0512BD4920108B770054FBBE /* GetMatomeNewsBlog.swift */; };
 		0512BD4C2010ABF30054FBBE /* MatomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0512BD4B2010ABF30054FBBE /* MatomeViewModel.swift */; };
-		0512BD512010ADD30054FBBE /* MatomeCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0512BD502010ADD30054FBBE /* MatomeCellViewModel.swift */; };
-		0512BD932011EA760054FBBE /* RxSwiftTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0512BD922011EA760054FBBE /* RxSwiftTest.swift */; };
 		0528A02A20045BC80090EB52 /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0528A02920045BC80090EB52 /* Member.swift */; };
 		0528A02C20045C070090EB52 /* Groupe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0528A02B20045C070090EB52 /* Groupe.swift */; };
+		053F504F201B66300010748B /* SessionExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053F504E201B66300010748B /* SessionExt.swift */; };
+		053F5051201BF3BF0010748B /* GetMatomeNewsDays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053F5050201BF3BF0010748B /* GetMatomeNewsDays.swift */; };
+		053F5054201BF4A10010748B /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053F5052201BF4A10010748B /* BaseCell.swift */; };
+		053F5055201BF4A10010748B /* BaseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 053F5053201BF4A10010748B /* BaseCell.xib */; };
+		053F5058201C52C90010748B /* MatomeTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053F5057201C52C90010748B /* MatomeTableViewDelegate.swift */; };
+		053F505A201CBBEA0010748B /* MatomeCellDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053F5059201CBBEA0010748B /* MatomeCellDatasource.swift */; };
+		053F505C201CBBF30010748B /* MatomeCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053F505B201CBBF30010748B /* MatomeCellDelegate.swift */; };
 		05489D9B200283A2000F931C /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05489D9A200283A2000F931C /* Theme.swift */; };
 		05489D9F200283C2000F931C /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05489D9E200283C2000F931C /* UIColorExtension.swift */; };
 		05C5A91620027B5C00AC51BB /* Initial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05C5A91520027B5C00AC51BB /* Initial.storyboard */; };
@@ -126,19 +130,23 @@
 		0512BD2D200D81F80054FBBE /* AttributedLabel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AttributedLabel.framework; path = Carthage/Build/iOS/AttributedLabel.framework; sourceTree = "<group>"; };
 		0512BD2E200D81F80054FBBE /* Cartography.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cartography.framework; path = Carthage/Build/iOS/Cartography.framework; sourceTree = "<group>"; };
 		0512BD38200D99AA0054FBBE /* MatomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatomeTableViewCell.swift; sourceTree = "<group>"; };
-		0512BD39200D99AA0054FBBE /* MatomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MatomeTableViewCell.xib; sourceTree = "<group>"; };
 		0512BD3C200DA2FC0054FBBE /* ResourceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceManager.swift; sourceTree = "<group>"; };
 		0512BD3E200DA7A00054FBBE /* ReuseIdentifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReuseIdentifiable.swift; sourceTree = "<group>"; };
 		0512BD402010791F0054FBBE /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
-		0512BD4320107B760054FBBE /* Matome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matome.swift; sourceTree = "<group>"; };
+		0512BD4320107B760054FBBE /* MatomeNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatomeNews.swift; sourceTree = "<group>"; };
 		0512BD45201081CC0054FBBE /* MatomeAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatomeAPIManager.swift; sourceTree = "<group>"; };
 		0512BD472010826D0054FBBE /* APICliant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICliant.swift; sourceTree = "<group>"; };
 		0512BD4920108B770054FBBE /* GetMatomeNewsBlog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetMatomeNewsBlog.swift; sourceTree = "<group>"; };
 		0512BD4B2010ABF30054FBBE /* MatomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatomeViewModel.swift; sourceTree = "<group>"; };
-		0512BD502010ADD30054FBBE /* MatomeCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatomeCellViewModel.swift; sourceTree = "<group>"; };
-		0512BD922011EA760054FBBE /* RxSwiftTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftTest.swift; sourceTree = "<group>"; };
 		0528A02920045BC80090EB52 /* Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
 		0528A02B20045C070090EB52 /* Groupe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Groupe.swift; sourceTree = "<group>"; };
+		053F504E201B66300010748B /* SessionExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionExt.swift; sourceTree = "<group>"; };
+		053F5050201BF3BF0010748B /* GetMatomeNewsDays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetMatomeNewsDays.swift; sourceTree = "<group>"; };
+		053F5052201BF4A10010748B /* BaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
+		053F5053201BF4A10010748B /* BaseCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BaseCell.xib; sourceTree = "<group>"; };
+		053F5057201C52C90010748B /* MatomeTableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatomeTableViewDelegate.swift; sourceTree = "<group>"; };
+		053F5059201CBBEA0010748B /* MatomeCellDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatomeCellDatasource.swift; sourceTree = "<group>"; };
+		053F505B201CBBF30010748B /* MatomeCellDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatomeCellDelegate.swift; sourceTree = "<group>"; };
 		05489D9A200283A2000F931C /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		05489D9E200283C2000F931C /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		05C5A91520027B5C00AC51BB /* Initial.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Initial.storyboard; sourceTree = "<group>"; };
@@ -298,7 +306,6 @@
 		0512A6DD1FE2713C0016E967 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				0512BD922011EA760054FBBE /* RxSwiftTest.swift */,
 				05489D9C200283B3000F931C /* extension */,
 				0512A6AB1FE2705D0016E967 /* AppDelegate.swift */,
 				0512A7451FE2DEDB0016E967 /* view */,
@@ -311,6 +318,8 @@
 		0512A6DE1FE271660016E967 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				053F5056201C52AF0010748B /* Dlegate */,
+				053F504D201B66220010748B /* Rx */,
 				0512BD4220107B530054FBBE /* matomeNews */,
 				0512A7441FE2DEB00016E967 /* bookmark */,
 				05489D9A200283A2000F931C /* Theme.swift */,
@@ -414,6 +423,8 @@
 			children = (
 				0512BD37200D98950054FBBE /* matome */,
 				0512BD402010791F0054FBBE /* BaseTableViewCell.swift */,
+				053F5052201BF4A10010748B /* BaseCell.swift */,
+				053F5053201BF4A10010748B /* BaseCell.xib */,
 			);
 			path = cells;
 			sourceTree = "<group>";
@@ -422,7 +433,8 @@
 			isa = PBXGroup;
 			children = (
 				0512BD38200D99AA0054FBBE /* MatomeTableViewCell.swift */,
-				0512BD39200D99AA0054FBBE /* MatomeTableViewCell.xib */,
+				053F5059201CBBEA0010748B /* MatomeCellDatasource.swift */,
+				053F505B201CBBF30010748B /* MatomeCellDelegate.swift */,
 			);
 			path = matome;
 			sourceTree = "<group>";
@@ -430,8 +442,9 @@
 		0512BD4220107B530054FBBE /* matomeNews */ = {
 			isa = PBXGroup;
 			children = (
-				0512BD4320107B760054FBBE /* Matome.swift */,
+				0512BD4320107B760054FBBE /* MatomeNews.swift */,
 				0512BD45201081CC0054FBBE /* MatomeAPIManager.swift */,
+				053F5050201BF3BF0010748B /* GetMatomeNewsDays.swift */,
 				0512BD4920108B770054FBBE /* GetMatomeNewsBlog.swift */,
 			);
 			path = matomeNews;
@@ -460,9 +473,24 @@
 		0512BD4F2010ADB40054FBBE /* matome */ = {
 			isa = PBXGroup;
 			children = (
-				0512BD502010ADD30054FBBE /* MatomeCellViewModel.swift */,
 			);
 			path = matome;
+			sourceTree = "<group>";
+		};
+		053F504D201B66220010748B /* Rx */ = {
+			isa = PBXGroup;
+			children = (
+				053F504E201B66300010748B /* SessionExt.swift */,
+			);
+			path = Rx;
+			sourceTree = "<group>";
+		};
+		053F5056201C52AF0010748B /* Dlegate */ = {
+			isa = PBXGroup;
+			children = (
+				053F5057201C52C90010748B /* MatomeTableViewDelegate.swift */,
+			);
+			path = Dlegate;
 			sourceTree = "<group>";
 		};
 		05489D9C200283B3000F931C /* extension */ = {
@@ -639,6 +667,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				053F5055201BF4A10010748B /* BaseCell.xib in Resources */,
 				05C5A91620027B5C00AC51BB /* Initial.storyboard in Resources */,
 				0512A6B61FE2705D0016E967 /* LaunchScreen.storyboard in Resources */,
 				0512A6B31FE2705D0016E967 /* Assets.xcassets in Resources */,
@@ -647,7 +676,6 @@
 				0512A6E91FE2751A0016E967 /* Favorite.storyboard in Resources */,
 				0512A6B11FE2705D0016E967 /* HomeTab.storyboard in Resources */,
 				0512A6E51FE274FA0016E967 /* Matome.storyboard in Resources */,
-				0512BD3B200D99AA0054FBBE /* MatomeTableViewCell.xib in Resources */,
 				0512A6E71FE275050016E967 /* Search.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -851,22 +879,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				0512A73A1FE2D6640016E967 /* FavoriteViewController.swift in Sources */,
-				0512BD512010ADD30054FBBE /* MatomeCellViewModel.swift in Sources */,
 				0512A7291FE2C5DE0016E967 /* HomeTabbarController.swift in Sources */,
+				053F5051201BF3BF0010748B /* GetMatomeNewsDays.swift in Sources */,
+				053F5054201BF4A10010748B /* BaseCell.swift in Sources */,
 				0512A73C1FE2D6720016E967 /* SearchNavigationController.swift in Sources */,
 				0512A6E21FE271E70016E967 /* BookmarkRealmManage.swift in Sources */,
+				053F505A201CBBEA0010748B /* MatomeCellDatasource.swift in Sources */,
 				0512A7341FE2D6450016E967 /* SettingNavigationController.swift in Sources */,
 				0512A7301FE2D62A0016E967 /* MatomeNavigationController.swift in Sources */,
-				0512BD932011EA760054FBBE /* RxSwiftTest.swift in Sources */,
 				0512BD412010791F0054FBBE /* BaseTableViewCell.swift in Sources */,
 				0512BD482010826D0054FBBE /* APICliant.swift in Sources */,
 				0512A6E01FE271890016E967 /* Bookmark.swift in Sources */,
+				053F504F201B66300010748B /* SessionExt.swift in Sources */,
 				0512BD46201081CC0054FBBE /* MatomeAPIManager.swift in Sources */,
 				0512A7361FE2D64F0016E967 /* SettingViewController.swift in Sources */,
 				0512BD4C2010ABF30054FBBE /* MatomeViewModel.swift in Sources */,
 				05489D9F200283C2000F931C /* UIColorExtension.swift in Sources */,
 				0512BD4A20108B770054FBBE /* GetMatomeNewsBlog.swift in Sources */,
-				0512BD4420107B760054FBBE /* Matome.swift in Sources */,
+				0512BD4420107B760054FBBE /* MatomeNews.swift in Sources */,
+				053F505C201CBBF30010748B /* MatomeCellDelegate.swift in Sources */,
 				0512A73E1FE2D6800016E967 /* SearchViewController.swift in Sources */,
 				0512BD3D200DA2FC0054FBBE /* ResourceManager.swift in Sources */,
 				05489D9B200283A2000F931C /* Theme.swift in Sources */,
@@ -874,6 +905,7 @@
 				0512A6AE1FE2705D0016E967 /* InitialViewController.swift in Sources */,
 				0512A7381FE2D6590016E967 /* FavoriteNavigationController.swift in Sources */,
 				0528A02C20045C070090EB52 /* Groupe.swift in Sources */,
+				053F5058201C52C90010748B /* MatomeTableViewDelegate.swift in Sources */,
 				0528A02A20045BC80090EB52 /* Member.swift in Sources */,
 				0512A7421FE2D6970016E967 /* BlogViewController.swift in Sources */,
 				0512A7321FE2D6340016E967 /* MatomeViewController.swift in Sources */,

@@ -9,26 +9,18 @@
 import UIKit
 
 import RxSwift
+import RxCocoa
 
-class MatomeTableViewCell: BaseTableViewCell {
+class MatomeTableViewCell: BaseCell {
 
-    @IBOutlet weak var blogimageView: UIImageView!
-    @IBOutlet weak var titleLabel: UILabel!
-    @IBOutlet weak var blognameLabel: UILabel!
-    
-    let disposeBag = DisposeBag()
-    
     override func awakeFromNib() {
         super.awakeFromNib()
-        
-        
     }
     
     override func prepareForReuse() {
         super.prepareForReuse()
         
-        blogimageView = nil
-        disposeBag = nil
+        self.disposeBag = nil
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

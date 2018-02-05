@@ -10,17 +10,9 @@ import UIKit
 
 class HomeTabbarController: UITabBarController, UITabBarControllerDelegate {
     
-    var hogeSubjectClass: HogeSubjectClass = HogeSubjectClass()
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.delegate = self
-        hogeSubjectClass.doSomethimg()
-    }
-    
-    func tabBarController(_ tabBarController: UITabBarController, shouldSelect viewController: UIViewController) -> Bool {
-        hogeSubjectClass.doSomethimg()
-        return true
     }
 }
 

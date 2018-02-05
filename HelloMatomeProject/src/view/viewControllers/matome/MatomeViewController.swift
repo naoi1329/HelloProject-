@@ -10,7 +10,12 @@ import UIKit
 
 class MatomeViewController: UIViewController {
     
+    @IBOutlet weak var tableView: UITableView!
+    var viewModle = MotomeViewModel()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
 }
+
+

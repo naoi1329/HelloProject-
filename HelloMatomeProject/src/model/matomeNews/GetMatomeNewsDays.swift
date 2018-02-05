@@ -1,20 +1,18 @@
 //
-//  MatomeAPIManager.swift
+//  GetMatomeNewsDays.swift
 //  HelloMatomeProject
 //
-//  Created by 直井翔汰 on 2018/01/18.
+//  Created by 直井翔汰 on 2018/01/27.
 //  Copyright © 2018年 直井翔汰. All rights reserved.
 //
 
 import Alamofire
-import SwiftyJSON
 
-struct GetMatomeNewsAll {
-    typealias Response = JSON
-    
+struct GetMatomeNewsDays {
+    <#fields#>
 }
 
-extension GetMatomeNewsAll: APIRequest {
+extension GetMatomeNewsDays: APIRequest {
     
     var path: String {
         return "v1/news/all"
