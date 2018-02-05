@@ -12,7 +12,7 @@ class InitialViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.navigationController?.navigationBar.barTintColor = nil
     }
 
     override func didReceiveMemoryWarning() {

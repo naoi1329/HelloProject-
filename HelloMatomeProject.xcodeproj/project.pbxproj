@@ -37,11 +37,35 @@
 		0512A73E1FE2D6800016E967 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0512A73D1FE2D6800016E967 /* SearchViewController.swift */; };
 		0512A7401FE2D68E0016E967 /* BlogNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0512A73F1FE2D68E0016E967 /* BlogNavigationController.swift */; };
 		0512A7421FE2D6970016E967 /* BlogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0512A7411FE2D6970016E967 /* BlogViewController.swift */; };
+		0512BD2F200D81F80054FBBE /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0512BD2A200D81F80054FBBE /* AlamofireImage.framework */; };
+		0512BD30200D81F80054FBBE /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0512BD2B200D81F80054FBBE /* SwiftyJSON.framework */; };
+		0512BD31200D81F80054FBBE /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0512BD2C200D81F80054FBBE /* ObjectMapper.framework */; };
+		0512BD32200D81F80054FBBE /* AttributedLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0512BD2D200D81F80054FBBE /* AttributedLabel.framework */; };
+		0512BD33200D81F80054FBBE /* Cartography.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0512BD2E200D81F80054FBBE /* Cartography.framework */; };
+		0512BD3A200D99AA0054FBBE /* MatomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0512BD38200D99AA0054FBBE /* MatomeTableViewCell.swift */; };
+		0512BD3D200DA2FC0054FBBE /* ResourceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0512BD3C200DA2FC0054FBBE /* ResourceManager.swift */; };
+		0512BD3F200DA7A00054FBBE /* ReuseIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0512BD3E200DA7A00054FBBE /* ReuseIdentifiable.swift */; };
+		0512BD412010791F0054FBBE /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0512BD402010791F0054FBBE /* BaseTableViewCell.swift */; };
+		0512BD4420107B760054FBBE /* MatomeNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0512BD4320107B760054FBBE /* MatomeNews.swift */; };
+		0512BD46201081CC0054FBBE /* MatomeAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0512BD45201081CC0054FBBE /* MatomeAPIManager.swift */; };
+		0512BD482010826D0054FBBE /* APICliant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0512BD472010826D0054FBBE /* APICliant.swift */; };
+		0512BD4A20108B770054FBBE /* GetMatomeNewsBlog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0512BD4920108B770054FBBE /* GetMatomeNewsBlog.swift */; };
+		0512BD4C2010ABF30054FBBE /* MatomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0512BD4B2010ABF30054FBBE /* MatomeViewModel.swift */; };
 		0528A02A20045BC80090EB52 /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0528A02920045BC80090EB52 /* Member.swift */; };
 		0528A02C20045C070090EB52 /* Groupe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0528A02B20045C070090EB52 /* Groupe.swift */; };
+		053F504F201B66300010748B /* SessionExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053F504E201B66300010748B /* SessionExt.swift */; };
+		053F5051201BF3BF0010748B /* GetMatomeNewsDays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053F5050201BF3BF0010748B /* GetMatomeNewsDays.swift */; };
+		053F5054201BF4A10010748B /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053F5052201BF4A10010748B /* BaseCell.swift */; };
+		053F5055201BF4A10010748B /* BaseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 053F5053201BF4A10010748B /* BaseCell.xib */; };
+		053F5058201C52C90010748B /* MatomeTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053F5057201C52C90010748B /* MatomeTableViewDelegate.swift */; };
+		053F505A201CBBEA0010748B /* MatomeCellDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053F5059201CBBEA0010748B /* MatomeCellDatasource.swift */; };
+		053F505C201CBBF30010748B /* MatomeCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053F505B201CBBF30010748B /* MatomeCellDelegate.swift */; };
 		05489D9B200283A2000F931C /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05489D9A200283A2000F931C /* Theme.swift */; };
 		05489D9F200283C2000F931C /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05489D9E200283C2000F931C /* UIColorExtension.swift */; };
 		05C5A91620027B5C00AC51BB /* Initial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05C5A91520027B5C00AC51BB /* Initial.storyboard */; };
+		18D05504FC5B12EE40161CC5 /* Pods_HelloMatomeProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10E94C6F0BB76343368E8214 /* Pods_HelloMatomeProjectTests.framework */; };
+		55B982BE36EC5C141EB77EC5 /* Pods_HelloMatomeProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E1186DFB2AAFA07B2081EC4 /* Pods_HelloMatomeProjectUITests.framework */; };
+		B3126C2C25259CBE05BBB9BB /* Pods_HelloMatomeProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26D10DF2D4D59BBD71246C9F /* Pods_HelloMatomeProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,11 +124,41 @@
 		0512A73D1FE2D6800016E967 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		0512A73F1FE2D68E0016E967 /* BlogNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogNavigationController.swift; sourceTree = "<group>"; };
 		0512A7411FE2D6970016E967 /* BlogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogViewController.swift; sourceTree = "<group>"; };
+		0512BD2A200D81F80054FBBE /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = Carthage/Build/iOS/AlamofireImage.framework; sourceTree = "<group>"; };
+		0512BD2B200D81F80054FBBE /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		0512BD2C200D81F80054FBBE /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = Carthage/Build/iOS/ObjectMapper.framework; sourceTree = "<group>"; };
+		0512BD2D200D81F80054FBBE /* AttributedLabel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AttributedLabel.framework; path = Carthage/Build/iOS/AttributedLabel.framework; sourceTree = "<group>"; };
+		0512BD2E200D81F80054FBBE /* Cartography.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cartography.framework; path = Carthage/Build/iOS/Cartography.framework; sourceTree = "<group>"; };
+		0512BD38200D99AA0054FBBE /* MatomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatomeTableViewCell.swift; sourceTree = "<group>"; };
+		0512BD3C200DA2FC0054FBBE /* ResourceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceManager.swift; sourceTree = "<group>"; };
+		0512BD3E200DA7A00054FBBE /* ReuseIdentifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReuseIdentifiable.swift; sourceTree = "<group>"; };
+		0512BD402010791F0054FBBE /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		0512BD4320107B760054FBBE /* MatomeNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatomeNews.swift; sourceTree = "<group>"; };
+		0512BD45201081CC0054FBBE /* MatomeAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatomeAPIManager.swift; sourceTree = "<group>"; };
+		0512BD472010826D0054FBBE /* APICliant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICliant.swift; sourceTree = "<group>"; };
+		0512BD4920108B770054FBBE /* GetMatomeNewsBlog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetMatomeNewsBlog.swift; sourceTree = "<group>"; };
+		0512BD4B2010ABF30054FBBE /* MatomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatomeViewModel.swift; sourceTree = "<group>"; };
 		0528A02920045BC80090EB52 /* Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
 		0528A02B20045C070090EB52 /* Groupe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Groupe.swift; sourceTree = "<group>"; };
+		053F504E201B66300010748B /* SessionExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionExt.swift; sourceTree = "<group>"; };
+		053F5050201BF3BF0010748B /* GetMatomeNewsDays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetMatomeNewsDays.swift; sourceTree = "<group>"; };
+		053F5052201BF4A10010748B /* BaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
+		053F5053201BF4A10010748B /* BaseCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BaseCell.xib; sourceTree = "<group>"; };
+		053F5057201C52C90010748B /* MatomeTableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatomeTableViewDelegate.swift; sourceTree = "<group>"; };
+		053F5059201CBBEA0010748B /* MatomeCellDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatomeCellDatasource.swift; sourceTree = "<group>"; };
+		053F505B201CBBF30010748B /* MatomeCellDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatomeCellDelegate.swift; sourceTree = "<group>"; };
 		05489D9A200283A2000F931C /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		05489D9E200283C2000F931C /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		05C5A91520027B5C00AC51BB /* Initial.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Initial.storyboard; sourceTree = "<group>"; };
+		0BE301C2909D12EB32673618 /* Pods-HelloMatomeProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloMatomeProjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloMatomeProjectTests/Pods-HelloMatomeProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		0E1186DFB2AAFA07B2081EC4 /* Pods_HelloMatomeProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloMatomeProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10E94C6F0BB76343368E8214 /* Pods_HelloMatomeProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloMatomeProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11D680C1AAAD4AC353294A78 /* Pods-HelloMatomeProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloMatomeProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloMatomeProject/Pods-HelloMatomeProject.debug.xcconfig"; sourceTree = "<group>"; };
+		26D10DF2D4D59BBD71246C9F /* Pods_HelloMatomeProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloMatomeProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71921F3D276ED69EE6D25F5F /* Pods-HelloMatomeProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloMatomeProjectUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloMatomeProjectUITests/Pods-HelloMatomeProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8D72DD305FB5C05AC25FA7F3 /* Pods-HelloMatomeProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloMatomeProjectUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloMatomeProjectUITests/Pods-HelloMatomeProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B45D53C4A6D9A70B078782C4 /* Pods-HelloMatomeProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloMatomeProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloMatomeProjectTests/Pods-HelloMatomeProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ECB8D6ED98026D257D40A45A /* Pods-HelloMatomeProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloMatomeProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloMatomeProject/Pods-HelloMatomeProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +166,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0512BD2F200D81F80054FBBE /* AlamofireImage.framework in Frameworks */,
+				0512BD30200D81F80054FBBE /* SwiftyJSON.framework in Frameworks */,
+				0512BD31200D81F80054FBBE /* ObjectMapper.framework in Frameworks */,
+				0512BD32200D81F80054FBBE /* AttributedLabel.framework in Frameworks */,
+				0512BD33200D81F80054FBBE /* Cartography.framework in Frameworks */,
 				050B1DA91FE5532B00AD1206 /* RxCocoa.framework in Frameworks */,
 				050B1DAA1FE5532B00AD1206 /* Alamofire.framework in Frameworks */,
 				050B1DAC1FE5532B00AD1206 /* RxSwift.framework in Frameworks */,
 				050B1DAE1FE5532B00AD1206 /* Realm.framework in Frameworks */,
 				050B1DAF1FE5532B00AD1206 /* RealmSwift.framework in Frameworks */,
+				B3126C2C25259CBE05BBB9BB /* Pods_HelloMatomeProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,6 +184,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18D05504FC5B12EE40161CC5 /* Pods_HelloMatomeProjectTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +192,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55B982BE36EC5C141EB77EC5 /* Pods_HelloMatomeProjectUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +202,11 @@
 		050B1DA11FE5532B00AD1206 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0512BD2A200D81F80054FBBE /* AlamofireImage.framework */,
+				0512BD2D200D81F80054FBBE /* AttributedLabel.framework */,
+				0512BD2E200D81F80054FBBE /* Cartography.framework */,
+				0512BD2C200D81F80054FBBE /* ObjectMapper.framework */,
+				0512BD2B200D81F80054FBBE /* SwiftyJSON.framework */,
 				050B1DA31FE5532B00AD1206 /* Alamofire.framework */,
 				050B1DA71FE5532B00AD1206 /* Realm.framework */,
 				050B1DA81FE5532B00AD1206 /* RealmSwift.framework */,
@@ -147,6 +214,9 @@
 				050B1DA21FE5532B00AD1206 /* RxCocoa.framework */,
 				050B1DA51FE5532B00AD1206 /* RxSwift.framework */,
 				050B1DA61FE5532B00AD1206 /* RxTest.framework */,
+				26D10DF2D4D59BBD71246C9F /* Pods_HelloMatomeProject.framework */,
+				10E94C6F0BB76343368E8214 /* Pods_HelloMatomeProjectTests.framework */,
+				0E1186DFB2AAFA07B2081EC4 /* Pods_HelloMatomeProjectUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -159,6 +229,7 @@
 				0512A6CA1FE2705E0016E967 /* HelloMatomeProjectUITests */,
 				0512A6A91FE2705D0016E967 /* Products */,
 				050B1DA11FE5532B00AD1206 /* Frameworks */,
+				08D396E63FB263E4806622C9 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -247,10 +318,16 @@
 		0512A6DE1FE271660016E967 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				053F5056201C52AF0010748B /* Dlegate */,
+				053F504D201B66220010748B /* Rx */,
+				0512BD4220107B530054FBBE /* matomeNews */,
 				0512A7441FE2DEB00016E967 /* bookmark */,
 				05489D9A200283A2000F931C /* Theme.swift */,
 				0528A02920045BC80090EB52 /* Member.swift */,
 				0528A02B20045C070090EB52 /* Groupe.swift */,
+				0512BD3C200DA2FC0054FBBE /* ResourceManager.swift */,
+				0512BD3E200DA7A00054FBBE /* ReuseIdentifiable.swift */,
+				0512BD472010826D0054FBBE /* APICliant.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -315,11 +392,8 @@
 		0512A7431FE2DC7B0016E967 /* viewmodel */ = {
 			isa = PBXGroup;
 			children = (
-				05C5A914200275E900AC51BB /* blog */,
-				05C5A913200275E000AC51BB /* search */,
-				05C5A912200275DA00AC51BB /* favorite */,
-				05C5A911200275D300AC51BB /* setting */,
-				05C5A910200275CE00AC51BB /* matome */,
+				0512BD4E2010AD8E0054FBBE /* viewControllers */,
+				0512BD4D2010AD740054FBBE /* cells */,
 			);
 			path = viewmodel;
 			sourceTree = "<group>";
@@ -336,11 +410,87 @@
 		0512A7451FE2DEDB0016E967 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				0512BD36200D988E0054FBBE /* cells */,
 				0512A6AD1FE2705D0016E967 /* InitialViewController.swift */,
 				0512A6E31FE273680016E967 /* viewControllers */,
 				0512A6DA1FE2708D0016E967 /* HomeTab */,
 			);
 			path = view;
+			sourceTree = "<group>";
+		};
+		0512BD36200D988E0054FBBE /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				0512BD37200D98950054FBBE /* matome */,
+				0512BD402010791F0054FBBE /* BaseTableViewCell.swift */,
+				053F5052201BF4A10010748B /* BaseCell.swift */,
+				053F5053201BF4A10010748B /* BaseCell.xib */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		0512BD37200D98950054FBBE /* matome */ = {
+			isa = PBXGroup;
+			children = (
+				0512BD38200D99AA0054FBBE /* MatomeTableViewCell.swift */,
+				053F5059201CBBEA0010748B /* MatomeCellDatasource.swift */,
+				053F505B201CBBF30010748B /* MatomeCellDelegate.swift */,
+			);
+			path = matome;
+			sourceTree = "<group>";
+		};
+		0512BD4220107B530054FBBE /* matomeNews */ = {
+			isa = PBXGroup;
+			children = (
+				0512BD4320107B760054FBBE /* MatomeNews.swift */,
+				0512BD45201081CC0054FBBE /* MatomeAPIManager.swift */,
+				053F5050201BF3BF0010748B /* GetMatomeNewsDays.swift */,
+				0512BD4920108B770054FBBE /* GetMatomeNewsBlog.swift */,
+			);
+			path = matomeNews;
+			sourceTree = "<group>";
+		};
+		0512BD4D2010AD740054FBBE /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				0512BD4F2010ADB40054FBBE /* matome */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		0512BD4E2010AD8E0054FBBE /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				05C5A914200275E900AC51BB /* blog */,
+				05C5A913200275E000AC51BB /* search */,
+				05C5A912200275DA00AC51BB /* favorite */,
+				05C5A911200275D300AC51BB /* setting */,
+				05C5A910200275CE00AC51BB /* matome */,
+			);
+			path = viewControllers;
+			sourceTree = "<group>";
+		};
+		0512BD4F2010ADB40054FBBE /* matome */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = matome;
+			sourceTree = "<group>";
+		};
+		053F504D201B66220010748B /* Rx */ = {
+			isa = PBXGroup;
+			children = (
+				053F504E201B66300010748B /* SessionExt.swift */,
+			);
+			path = Rx;
+			sourceTree = "<group>";
+		};
+		053F5056201C52AF0010748B /* Dlegate */ = {
+			isa = PBXGroup;
+			children = (
+				053F5057201C52C90010748B /* MatomeTableViewDelegate.swift */,
+			);
+			path = Dlegate;
 			sourceTree = "<group>";
 		};
 		05489D9C200283B3000F931C /* extension */ = {
@@ -354,6 +504,7 @@
 		05C5A910200275CE00AC51BB /* matome */ = {
 			isa = PBXGroup;
 			children = (
+				0512BD4B2010ABF30054FBBE /* MatomeViewModel.swift */,
 			);
 			path = matome;
 			sourceTree = "<group>";
@@ -386,6 +537,19 @@
 			path = blog;
 			sourceTree = "<group>";
 		};
+		08D396E63FB263E4806622C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11D680C1AAAD4AC353294A78 /* Pods-HelloMatomeProject.debug.xcconfig */,
+				ECB8D6ED98026D257D40A45A /* Pods-HelloMatomeProject.release.xcconfig */,
+				B45D53C4A6D9A70B078782C4 /* Pods-HelloMatomeProjectTests.debug.xcconfig */,
+				0BE301C2909D12EB32673618 /* Pods-HelloMatomeProjectTests.release.xcconfig */,
+				8D72DD305FB5C05AC25FA7F3 /* Pods-HelloMatomeProjectUITests.debug.xcconfig */,
+				71921F3D276ED69EE6D25F5F /* Pods-HelloMatomeProjectUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -393,10 +557,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0512A6D01FE2705E0016E967 /* Build configuration list for PBXNativeTarget "HelloMatomeProject" */;
 			buildPhases = (
+				3AABF7883DDADCA69E6AA380 /* [CP] Check Pods Manifest.lock */,
 				0512A6A41FE2705D0016E967 /* Sources */,
 				0512A6A51FE2705D0016E967 /* Frameworks */,
 				0512A6A61FE2705D0016E967 /* Resources */,
 				050B1DB01FE5533E00AD1206 /* ShellScript */,
+				9638FFE5496006B9BE7849DF /* [CP] Embed Pods Frameworks */,
+				B4B0F40ECF7E1F9B061D0C53 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -411,9 +578,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0512A6D31FE2705E0016E967 /* Build configuration list for PBXNativeTarget "HelloMatomeProjectTests" */;
 			buildPhases = (
+				88356A3F6073A53FA3F82BD0 /* [CP] Check Pods Manifest.lock */,
 				0512A6B81FE2705E0016E967 /* Sources */,
 				0512A6B91FE2705E0016E967 /* Frameworks */,
 				0512A6BA1FE2705E0016E967 /* Resources */,
+				0FA7F0CD3607F770A9245E2E /* [CP] Embed Pods Frameworks */,
+				183845667DC750A4D27D3F13 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -429,9 +599,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0512A6D61FE2705E0016E967 /* Build configuration list for PBXNativeTarget "HelloMatomeProjectUITests" */;
 			buildPhases = (
+				C7240A5CE75B5FFD1FBF4913 /* [CP] Check Pods Manifest.lock */,
 				0512A6C31FE2705E0016E967 /* Sources */,
 				0512A6C41FE2705E0016E967 /* Frameworks */,
 				0512A6C51FE2705E0016E967 /* Resources */,
+				BB7C4869FFFD466A1A6E43AA /* [CP] Embed Pods Frameworks */,
+				816684F5F4256122A29B8B6C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -494,6 +667,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				053F5055201BF4A10010748B /* BaseCell.xib in Resources */,
 				05C5A91620027B5C00AC51BB /* Initial.storyboard in Resources */,
 				0512A6B61FE2705D0016E967 /* LaunchScreen.storyboard in Resources */,
 				0512A6B31FE2705D0016E967 /* Assets.xcassets in Resources */,
@@ -534,12 +708,168 @@
 				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Realm.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/AlamofireImage.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/AttributedLabel.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Cartography.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ObjectMapper.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
 			);
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		0FA7F0CD3607F770A9245E2E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloMatomeProjectTests/Pods-HelloMatomeProjectTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		183845667DC750A4D27D3F13 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloMatomeProjectTests/Pods-HelloMatomeProjectTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3AABF7883DDADCA69E6AA380 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloMatomeProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		816684F5F4256122A29B8B6C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloMatomeProjectUITests/Pods-HelloMatomeProjectUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88356A3F6073A53FA3F82BD0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloMatomeProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9638FFE5496006B9BE7849DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HelloMatomeProject/Pods-HelloMatomeProject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ReusableKit/ReusableKit.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReusableKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloMatomeProject/Pods-HelloMatomeProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4B0F40ECF7E1F9B061D0C53 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloMatomeProject/Pods-HelloMatomeProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB7C4869FFFD466A1A6E43AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloMatomeProjectUITests/Pods-HelloMatomeProjectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7240A5CE75B5FFD1FBF4913 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloMatomeProjectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -550,22 +880,37 @@
 			files = (
 				0512A73A1FE2D6640016E967 /* FavoriteViewController.swift in Sources */,
 				0512A7291FE2C5DE0016E967 /* HomeTabbarController.swift in Sources */,
+				053F5051201BF3BF0010748B /* GetMatomeNewsDays.swift in Sources */,
+				053F5054201BF4A10010748B /* BaseCell.swift in Sources */,
 				0512A73C1FE2D6720016E967 /* SearchNavigationController.swift in Sources */,
 				0512A6E21FE271E70016E967 /* BookmarkRealmManage.swift in Sources */,
+				053F505A201CBBEA0010748B /* MatomeCellDatasource.swift in Sources */,
 				0512A7341FE2D6450016E967 /* SettingNavigationController.swift in Sources */,
 				0512A7301FE2D62A0016E967 /* MatomeNavigationController.swift in Sources */,
+				0512BD412010791F0054FBBE /* BaseTableViewCell.swift in Sources */,
+				0512BD482010826D0054FBBE /* APICliant.swift in Sources */,
 				0512A6E01FE271890016E967 /* Bookmark.swift in Sources */,
+				053F504F201B66300010748B /* SessionExt.swift in Sources */,
+				0512BD46201081CC0054FBBE /* MatomeAPIManager.swift in Sources */,
 				0512A7361FE2D64F0016E967 /* SettingViewController.swift in Sources */,
+				0512BD4C2010ABF30054FBBE /* MatomeViewModel.swift in Sources */,
 				05489D9F200283C2000F931C /* UIColorExtension.swift in Sources */,
+				0512BD4A20108B770054FBBE /* GetMatomeNewsBlog.swift in Sources */,
+				0512BD4420107B760054FBBE /* MatomeNews.swift in Sources */,
+				053F505C201CBBF30010748B /* MatomeCellDelegate.swift in Sources */,
 				0512A73E1FE2D6800016E967 /* SearchViewController.swift in Sources */,
+				0512BD3D200DA2FC0054FBBE /* ResourceManager.swift in Sources */,
 				05489D9B200283A2000F931C /* Theme.swift in Sources */,
+				0512BD3F200DA7A00054FBBE /* ReuseIdentifiable.swift in Sources */,
 				0512A6AE1FE2705D0016E967 /* InitialViewController.swift in Sources */,
 				0512A7381FE2D6590016E967 /* FavoriteNavigationController.swift in Sources */,
 				0528A02C20045C070090EB52 /* Groupe.swift in Sources */,
+				053F5058201C52C90010748B /* MatomeTableViewDelegate.swift in Sources */,
 				0528A02A20045BC80090EB52 /* Member.swift in Sources */,
 				0512A7421FE2D6970016E967 /* BlogViewController.swift in Sources */,
 				0512A7321FE2D6340016E967 /* MatomeViewController.swift in Sources */,
 				0512A6AC1FE2705D0016E967 /* AppDelegate.swift in Sources */,
+				0512BD3A200D99AA0054FBBE /* MatomeTableViewCell.swift in Sources */,
 				0512A7401FE2D68E0016E967 /* BlogNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -730,6 +1075,7 @@
 		};
 		0512A6D11FE2705E0016E967 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11D680C1AAAD4AC353294A78 /* Pods-HelloMatomeProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -749,6 +1095,7 @@
 		};
 		0512A6D21FE2705E0016E967 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECB8D6ED98026D257D40A45A /* Pods-HelloMatomeProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -768,6 +1115,7 @@
 		};
 		0512A6D41FE2705E0016E967 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B45D53C4A6D9A70B078782C4 /* Pods-HelloMatomeProjectTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -785,6 +1133,7 @@
 		};
 		0512A6D51FE2705E0016E967 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BE301C2909D12EB32673618 /* Pods-HelloMatomeProjectTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -802,6 +1151,7 @@
 		};
 		0512A6D71FE2705E0016E967 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D72DD305FB5C05AC25FA7F3 /* Pods-HelloMatomeProjectUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -818,6 +1168,7 @@
 		};
 		0512A6D81FE2705E0016E967 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71921F3D276ED69EE6D25F5F /* Pods-HelloMatomeProjectUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

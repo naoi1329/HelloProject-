@@ -38,10 +38,25 @@
                     <view key="view" contentMode="scaleToFill" id="gxD-03-jB4">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="D7w-3X-dAc">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="WdT-gi-iS2" firstAttribute="trailing" secondItem="D7w-3X-dAc" secondAttribute="trailing" id="62Y-cS-dV7"/>
+                            <constraint firstItem="WdT-gi-iS2" firstAttribute="bottom" secondItem="D7w-3X-dAc" secondAttribute="bottom" id="JOs-20-ZNJ"/>
+                            <constraint firstItem="D7w-3X-dAc" firstAttribute="leading" secondItem="WdT-gi-iS2" secondAttribute="leading" id="VqX-9M-FLl"/>
+                            <constraint firstItem="D7w-3X-dAc" firstAttribute="top" secondItem="WdT-gi-iS2" secondAttribute="top" id="fuN-TA-A6j"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="WdT-gi-iS2"/>
                     </view>
                     <navigationItem key="navigationItem" id="be8-nX-7UF"/>
+                    <connections>
+                        <outlet property="tableView" destination="D7w-3X-dAc" id="Huh-DE-ypl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XLx-1A-9MD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

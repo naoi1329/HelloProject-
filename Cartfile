@@ -1,8 +1,10 @@
 github "Alamofire/Alamofire" ~> 4.5
 github "Alamofire/AlamofireImage"
+github "devxoul/Then"
 github "Hearst-DD/ObjectMapper"
 github "KyoheiG3/AttributedLabel"
 github "ReactiveX/RxSwift" ~> 4.0
 github "robb/Cartography"
 github "realm/realm-cocoa"
 github "SwiftyJSON/SwiftyJSON"
+github "RxSwiftCommunity/RxAlamofire" "master"
